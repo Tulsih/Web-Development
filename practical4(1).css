@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+   background-color: cornflowerblue;
+   z-index: -7;
+}
+
+.box{
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style: circle;
+    justify-content: center;
+    display: inline;
+    
+    
+}
+.box1{
+    background-color: lightpink;
+    margin: 5px;
+    padding: 5px;
+    position: sticky;
+    transform: rotate();
+    box-sizing: border-box;
+    border-radius: 1px;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px 10px lightseagreen;
+    /* gradient  */
+    background: linear-gradient(to bottom, #2be340, #0000ff);
+    justify-self: unset;
+    display: inline;
+}
+
+.box2{
+    background-color: lightsalmon;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    transform: perspective();
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 1px;
+    display: inline;
+    /* cale  */
+    transform: scale(1, 1);
+    justify-content: center;
+    background: linear-gradient(to bottom, lightsalmon, lightsteelblue);
+    box-shadow: 10px 10px 10px 10px rgb(236, 244, 153);
+}
+.box3{
+    background-color: lightsteelblue;
+    margin: 5px;
+    padding: 5px;
+    position: static;
+    transform: rotateX('45deg');
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 1px;
+    display: inline;
+    justify-content: center;
+    background: linear-gradient(to bottom,lightblue,lightpink); box-shadow: 10px 10px 10px 10px rgb(189, 249, 166);
+}
+p{
+    font-size: 25px;
+    color: cornflowerblue;
+    background-color: aquamarine;
+}
